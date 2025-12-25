@@ -1,0 +1,34 @@
+<div class="w-64 rounded-xl overflow-hidden cursor-pointer">
+                <video class="w-full h-full object-cover" src="highlights/dom01.mov" muted loop playsinline></video>
+            </div>
+            <div class="w-64 rounded-xl overflow-hidden cursor-pointer">
+                <video class="w-full h-full object-cover" src="highlights/op01.mov" muted loop playsinline></video>
+            </div>
+            <div class="w-64 rounded-xl overflow-hidden cursor-pointer">
+                <video class="w-full h-full object-cover" src="highlights/op02.mov" muted loop playsinline></video>
+            </div>
+            <div class="w-64 rounded-xl overflow-hidden cursor-pointer">
+                <video class="w-full h-full object-cover" src="highlights/op03.mov" muted loop playsinline></video>
+            </div>
+            <div class="w-64 rounded-xl overflow-hidden cursor-pointer">
+                <video class="w-full h-full object-cover" src="highlights/op04.mov" muted loop playsinline></video>
+            </div>
+            <div class="w-64 rounded-xl overflow-hidden cursor-pointer">
+                <video class="w-full h-full object-cover" src="highlights/p01.mov" muted loop playsinline></video>
+            </div>
+            <div class="w-64 rounded-xl overflow-hidden cursor-pointer">
+                <video class="w-full h-full object-cover" src="highlights/p02.mov" muted loop playsinline></video>
+            </div>
+            <div class="w-64 rounded-xl overflow-hidden cursor-pointer">
+                <video class="w-full h-full object-cover" src="highlights/sab001.mov" muted loop playsinline></video>
+            </div>
+
+
+            import dom01 from './assets/highlights/dom01.mov';
+import op01 from './assets/highlights/op01.mov';
+import op02 from './assets/highlights/op02.mov';
+import op03 from './assets/highlights/op03.mov';
+import op04 from './assets/highlights/op04.mov';
+import p01 from './assets/highlights/p01.mov';
+import p02 from './assets/highlights/p02.mov';
+import sab001 from './assets/highlights/sab001.mov';
