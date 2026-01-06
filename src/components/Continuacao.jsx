@@ -18,7 +18,7 @@ function Continuacao() {
                 <section class="bg-yellow-50">
                     <h1>Portifolio dev!</h1>
                 </section>
-                <section class="bg-violet-200"> 
+                <section class="bg-violet-200">
                     <div class="pb-20 ">
                         <h1 class="pt-20 font-medium text-2xl">Olá, eu sou William</h1>
                         <p class="mt-5 mb-10">Desenvolvedor Full Stack apaixonado por criar soluções web incríveis.</p>
@@ -78,17 +78,25 @@ function Continuacao() {
                     <div>
                         <h1 class="pt-20 font-medium text-2xl">Projetos</h1>
                         <div class="flex justify-center flex-col gap-4 py-25 mx-8 sm:flex-row">
-                            <div class="bg-violet-50 rounded-lg ">
-                                <img class="rounded-t-md" src={Web01} alt="Minha Imagem" />
-                                <h1 class=" mb-10">Projeto web 01</h1>
-                                <p class="mb-5">Uma breve descrição do projeto.</p>
-                                <a class="bg-violet-800 text-violet-50 block px-3 py-2 rounded-b-md" href="#">Ver Projeto</a>
+                            <div class="bg-violet-50 rounded-lg flex flex-col">
+                                <div className='flex-1'>
+                                    <img class="rounded-t-md" src={Web01} alt="Minha Imagem" />
+                                    <h1 class=" mb-10">Projeto web 01</h1>
+                                    <p class="mb-5">Uma breve descrição do projeto.</p>
+                                </div>
+                                <div>
+                                    <a class="bg-violet-800 text-violet-50 block px-3 py-2 rounded-b-md" href="#">Ver Projeto</a>
+                                </div>
                             </div>
-                            <div class="bg-violet-50 rounded-lg">
-                                <img class="rounded-t-md" src={Web03} alt="Minha Imagem" />
-                                <h1 class=" mb-10">CyberLab Hub</h1>
-                                <p class="mb-5">Esse projeto uso para após realizar um pentest em labs escrevo o passo a passo assim sempre quando posso dou uma lida.</p>
-                                <a class="bg-violet-800 text-violet-50 block px-3 py-2 rounded-b-md" href="https://vuln-lab01.vercel.app/">Ver Projeto</a>
+                            <div class="bg-violet-50 rounded-lg flex flex-col">
+                                <div className='flex-1'>
+                                    <img class="rounded-t-md" src={Web03} alt="Minha Imagem" />
+                                    <h1 class=" mb-10">CyberLab Hub</h1>
+                                    <p class="mb-5">Esse projeto uso para após realizar um pentest em labs escrevo o passo a passo assim sempre quando posso dou uma lida.</p>
+                                </div>
+                                <div>
+                                    <a class="bg-violet-800 text-violet-50 block px-3 py-2 rounded-b-md" href="https://vuln-lab01.vercel.app/">Ver Projeto</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -101,12 +109,12 @@ function Continuacao() {
                         <h1 class="pt-20 font-medium text-2xl">Contato</h1>
                         <div className='flex justify-center gap-2 py-8'>
                             <a href="https://wa.me/5548988645017"><img src={Whats} alt="" className='w12 h-12' /></a>
-                            <a href="mailto:williamdeoliveira360@outlook.com"><img src={Email} alt="" className='w12 h-12'/></a>
-                            <a href="https://www.linkedin.com/in/william-vinicius-oliveira-da-rosa-6371b2173/"><img src={Linkedin} alt="" className='w12 h-12'/></a>
-                            <a href="https://www.youtube.com/@hackeroliver8074"><img src={Youtube} alt="" className='w12 h-12'/></a>
-                            <a href="https://www.instagram.com/williamoliveira9638/"><img src={Instagram} alt="" className='w12 h-12'/></a>
-                            <a href="https://www.facebook.com/profile.php?id=61580520103293"><img src={Facebook} alt="" className='w12 h-12'/></a>
-                            <a href="https://www.tiktok.com/@hackeroliver"><img src={Tiktok} alt="" className='w12 h-12'/></a>
+                            <a href="mailto:williamdeoliveira360@outlook.com"><img src={Email} alt="" className='w12 h-12' /></a>
+                            <a href="https://www.linkedin.com/in/william-vinicius-oliveira-da-rosa-6371b2173/"><img src={Linkedin} alt="" className='w12 h-12' /></a>
+                            <a href="https://www.youtube.com/@hackeroliver8074"><img src={Youtube} alt="" className='w12 h-12' /></a>
+                            <a href="https://www.instagram.com/williamoliveira9638/"><img src={Instagram} alt="" className='w12 h-12' /></a>
+                            <a href="https://www.facebook.com/profile.php?id=61580520103293"><img src={Facebook} alt="" className='w12 h-12' /></a>
+                            <a href="https://www.tiktok.com/@hackeroliver"><img src={Tiktok} alt="" className='w12 h-12' /></a>
                         </div>
                     </div>
                 </section>
