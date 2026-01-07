@@ -11,6 +11,7 @@ import Instagram from '../assets/continuacao/contato/instagram.webp'
 import Youtube from '../assets/continuacao/contato/youtube.png'
 import Tiktok from '../assets/continuacao/contato/tiktok.png'
 import Linkedin from '../assets/continuacao/contato/linkedin01.png'
+import Github from '../assets/continuacao/contato/github-logo.png'
 function Continuacao() {
     return (
         <>
@@ -115,6 +116,7 @@ function Continuacao() {
                             <a href="https://www.instagram.com/williamoliveira9638/"><img src={Instagram} alt="" className='w12 h-12' /></a>
                             <a href="https://www.facebook.com/profile.php?id=61580520103293"><img src={Facebook} alt="" className='w12 h-12' /></a>
                             <a href="https://www.tiktok.com/@hackeroliver"><img src={Tiktok} alt="" className='w12 h-12' /></a>
+                            <a href="https://github.com/WilliamViniciusOliveiradaRosa"><img src={Github} alt="" className='w12 h-12' /></a>
                         </div>
                     </div>
                 </section>
