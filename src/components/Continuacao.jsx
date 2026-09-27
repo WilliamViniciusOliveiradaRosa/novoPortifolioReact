@@ -1,8 +1,10 @@
 import React from 'react'
 import William from '../assets/continuacao/william.png'
 import Barba from '../assets/continuacao/barba.png'
-import Web01 from '../assets/continuacao/web01.png'
+//import Web01 from '../assets/continuacao/web01.png'
 //import Web02 from '../assets/continuacao/web02.png'
+import web04 from '../assets/continuacao/web04.png'
+import web05 from '../assets/continuacao/web05.png'
 import Web03 from '../assets/continuacao/web03.png'
 import Whats from '../assets/continuacao/contato/whatsapp.png'
 import Email from '../assets/continuacao/contato/mail.png'
@@ -81,12 +83,12 @@ function Continuacao() {
                         <div class="flex justify-center flex-col gap-4 py-25 mx-8 sm:flex-row">
                             <div class="bg-violet-50 rounded-lg flex flex-col">
                                 <div className='flex-1'>
-                                    <img class="rounded-t-md" src={Web01} alt="Minha Imagem" />
-                                    <h1 class=" mb-10">Projeto web 01</h1>
-                                    <p class="mb-5">Uma breve descrição do projeto.</p>
+                                    <img class="rounded-t-md" src={web04} alt="Minha Imagem" />
+                                    <h1 class=" mb-10">Blog - William</h1>
+                                    <p class="mb-5">Aqui estamos criando um blog ainda meio sem finalidade mas assim sei que vou estar mais proximo a programação de front end e assim desejando um backend.</p>
                                 </div>
                                 <div>
-                                    <a class="bg-violet-800 text-violet-50 block px-3 py-2 rounded-b-md" href="#">Ver Projeto</a>
+                                    <a class="bg-violet-800 text-violet-50 block px-3 py-2 rounded-b-md" href="https://blog-william.vercel.app/">Ver Projeto</a>
                                 </div>
                             </div>
                             <div class="bg-violet-50 rounded-lg flex flex-col">
@@ -97,6 +99,16 @@ function Continuacao() {
                                 </div>
                                 <div>
                                     <a class="bg-violet-800 text-violet-50 block px-3 py-2 rounded-b-md" href="https://vuln-lab01.vercel.app/">Ver Projeto</a>
+                                </div>
+                            </div>
+                            <div class="bg-violet-50 rounded-lg flex flex-col">
+                                <div className='flex-1'>
+                                    <img class="rounded-t-md" src={web05} alt="Minha Imagem" />
+                                    <h1 class=" mb-10">Landingpage</h1>
+                                    <p class="mb-5">Trabalhando mais a ideia de criar uma pagina como portifolio.</p>
+                                </div>
+                                <div>
+                                    <a class="bg-violet-800 text-violet-50 block px-3 py-2 rounded-b-md" href="https://site-beat.vercel.app/">Ver Projeto</a>
                                 </div>
                             </div>
                         </div>
